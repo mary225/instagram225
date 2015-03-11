@@ -1,6 +1,6 @@
 package com.example.yao.instagram;
 
-import com.example.instagramgallery.network.BitmapDownloaderTask;
+
 import com.example.yao.gallery.BitmapDownload;
 
 import android.app.Activity;
@@ -10,6 +10,7 @@ import android.widget.ImageView;
 
 public class Image extends Activity {
     ZoomView imageView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,5 +29,4 @@ public class Image extends Activity {
         }
     }
 }
-
 
